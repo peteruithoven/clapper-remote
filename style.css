@@ -1,0 +1,24 @@
+body {
+  background-color: rgb(31 41 55);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 48px;
+}
+
+.hidden {
+  display: none;
+}
+
+.button {
+  border-radius: 999px;
+  background-color: rgb(15 23 42);
+  padding: 24px;
+}
+
+#play svg {
+  position: relative;
+  left: 10px;
+}
